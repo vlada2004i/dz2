@@ -5,16 +5,15 @@ if (age <= 65) {
     console.log("Поздравляем с пенсионным возрастом!");
 }
 
-let age = parseInt(prompt("Введите число"));
-if (age > 65) {
+const number = prompt("Введите число:");
+if (number > 100) {
     console.log("Большое число");
-} 
-if (age = 65) {
+} else if (number < 100) {
+    console.log("Маленькое число");
+} else {
     console.log("Точно 100!");
 }
-else {
-    console.log("Маленькое число");
-}
+
 
 let login = prompt("Введите логин");
     let password = prompt("Введите пароль");
