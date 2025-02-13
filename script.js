@@ -15,3 +15,12 @@ if (age = 65) {
 else {
     console.log("Маленькое число");
 }
+
+let login = prompt("Введите логин");
+    let password = prompt("Введите пароль");
+
+    if (login === "admin" && password === "12345") {
+        alert("Добро пожаловать!");
+      } else {
+        alert("Неверный логин или пароль");
+      }
